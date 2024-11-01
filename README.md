@@ -1,5 +1,5 @@
 # Case-Study-DBT
-Case study using DBT to get dimensions for reporting
+Case study using DBT to get dimensions for reporting (attached is the image: report.png which is a report using the dimensions)
 
 This repository has the DBT sql models to map from a postgres database table with raw data to three dimensions tables in postgres database according a .csv source file
 
