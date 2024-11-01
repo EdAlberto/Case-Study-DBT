@@ -8,7 +8,7 @@ The database is created in a docker container locally using a downloaded postgre
 A python script (load_csv.py) is used, to map the .csv raw data into a table (case_study.fi_raw_data) in postgres with selected columns (index, neighborhood_district,Alarm DtTm,Arrival DtTm and Battalion) as a source for the DBT models.
 
 The models for time period are:
-- transformed_data_period.sql (here required data transformations are made)
+- transformed_data_period.sql (here required data transformations are made, getting the time period in minutes)
 - time_period.sql (the dimension is created in postgres)
 The models for district are:
 - transformed_data_district.sql (here required data transformations are made)
